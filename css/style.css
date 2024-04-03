@@ -52,7 +52,7 @@ a {
 
 /*! banner section  */
 .banner {
-    background-image: url("/images/banner-final1.jpg");
+    background-image: url("../images/banner-final1.jpg");
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,7 +296,7 @@ a {
 .feedback {
     margin-top: 80px;
     box-shadow: 0 0 10px #ccc;
-    background-image: url("/images/home-contact2.jpg");
+    background-image: url("../images/home-contact2.jpg");
     background-size: cover;
     width: 100%;
 }
@@ -413,7 +413,7 @@ footer {
 }
 /*! about_banner  */
 .about_banner {
-    background-image: url("/images/asset\ 3.jpeg");
+    background-image: url("../images/asset\ 3.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -577,6 +577,6 @@ footer {
 }
 .line {
     width: 2px;
-    padding-block: 31%;
+
     background-color: #337ab7;
 }
