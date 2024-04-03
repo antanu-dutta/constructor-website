@@ -532,8 +532,6 @@ footer {
     padding: 40px 0 0;
 }
 
-.contact_us_details {
-}
 .map {
     margin-top: 30px;
 }
@@ -559,6 +557,7 @@ footer {
 .area_details {
     justify-content: space-between;
     height: 100%;
+    align-items: unset;
 }
 .area_details1,
 .area_details2 {
