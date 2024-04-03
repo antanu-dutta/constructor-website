@@ -37,6 +37,9 @@ a {
     display: inline-block;
     margin-left: 50px;
 }
+.header_container ul li:nth-last-child(1) a i {
+    margin-right: 10px;
+}
 .nav_links {
     font-size: 13px;
     font-weight: 600;
