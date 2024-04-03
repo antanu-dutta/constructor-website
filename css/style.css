@@ -192,6 +192,9 @@ a {
 .main_photos .main_text {
     margin: -10px;
 }
+.main_photos .main_text:nth-last-child(1) {
+    margin-bottom: 40px;
+}
 .photos_card {
     flex-direction: column;
     gap: 30px;
@@ -217,4 +220,45 @@ a {
 }
 .photos_card .nav_links:hover {
     color: #641115;
+}
+.why_choose_us {
+    justify-content: space-evenly;
+}
+.left_choose {
+    width: 50%;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.left_choose .main_text {
+    margin: 15px 0;
+}
+.choosing_details {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+.choosing_card {
+    gap: 20px;
+    width: 45%;
+    align-items: flex-start;
+}
+.img_circle {
+    background-color: #2b548d;
+    padding: 15px;
+    border-radius: 50%;
+}
+.img_circle img {
+    width: 100%;
+    vertical-align: middle;
+}
+.choosing_card_details {
+    text-align: left;
+}
+.choosing_card_details .main_text {
+    margin: 0;
+}
+.right_choose img {
+    width: 350px;
+    height: 569px;
 }
