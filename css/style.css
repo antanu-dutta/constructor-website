@@ -229,7 +229,7 @@ a {
     justify-content: space-between;
 }
 .left_choose {
-    width: 50%;
+    width: 70%;
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
