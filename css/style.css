@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 .container {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 .flex {
@@ -107,6 +107,7 @@ a {
     font-weight: 500;
     text-align: center;
     transition: 0.2s ease-out;
+    cursor: pointer;
 }
 .primary_button:hover {
     background: #641115;
@@ -266,6 +267,10 @@ a {
     flex-direction: column;
     align-items: flex-start;
 }
+.contact_us_details {
+    justify-content: space-between;
+    width: 100%;
+}
 .address {
     margin-top: 40px;
     box-shadow: -5px 5px 4px 0 #ad0000;
@@ -281,4 +286,43 @@ a {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
+}
+.contact_us {
+    padding-block: 40px;
+}
+.feedback {
+    margin-top: 80px;
+    box-shadow: 0 0 10px #ccc;
+    background-image: url("/images/home-contact2.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.feedback_content {
+    width: 80%;
+    padding: 50px 30px 30px;
+    background-color: #000;
+    text-align: left;
+}
+.inputs {
+    justify-content: space-between;
+}
+.inputs input {
+    height: 35px;
+    border: 0;
+    border-radius: 3px !important;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    background: #eee;
+    color: #212121;
+    outline: 0;
+    margin-bottom: 25px;
+    padding: 10px 8px;
+}
+.text_area textarea {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
 }
